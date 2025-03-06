@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REPARACION DE CELULARES</title>
+    </head>
+    <body>
+        <h1>Pedido del cliente</h1>
+
+        <h2>Fabricante</h2>
+        <form>
+            <input type="checkbox" name="fabricante" value="Apple"> Apple
+            <input type="checkbox" name="fabricante" value="Samsung"> Samsung
+            <input type="checkbox" name="fabricante" value="Otra"> Otra
+            <input type="checkbox" name="fabricante" value="HTC"> HTC
+            <input type="checkbox" name="fabricante" value="LG"> LG
+        </form>
+
+        <h3>Modelo del telefono</h3>
+        <form>
+            <input type="text" name="modelo">
+
+            <h3>Portador</h3>
+            <form>
+                <input type="checkbox" name="portador" value="AT&T"> AT&T
+                <input type="checkbox" name="portador" value="Verizon"> Verizon
+                <input type="checkbox" name="portador" value="Otra"> Otra
+                <input type="checkbox" name="portador" value="Sprint"> Sprint
+                <input type="checkbox" name="portador" value="T-Mobile"> T-Mobile
+            </form>
+            <h3>Problemas con el Dispositivo</h3>
+            <form>
+                <input type="checkbox" name="problema" value="Digitalizador roto"> Digitalizador roto
+                <input type="checkbox" name="problema" value="Puerto de carga roto"> Puerto de carga rotos
+                <input type="checkbox" name="problema" value="Otra"> Otra
+                <input type="checkbox" name="problema" value="LCD rota"> LCD rota
+                <input type="checkbox" name="problema" value="Cambio de bateria"> Cambio de bateria
+            </form>
+            <h3>Clave del Dispositivo</h3>
+            <form>
+                <input type="text" name="clave">
+            </form>
+            <h3>Errores y Sintomas proporcionados por el cliente</h3>
+            <form>
+                <textarea name="errores"></textarea>
+            </form>
+            <button type="submit">Siguiente</button>
+        </form>
+        <form>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

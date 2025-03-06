@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reparación de Teléfono</title>
+</head>
+<body>
+    <h1>Pedido de Cliente</h1>
+
+    <form>
+        <fieldset>
+            <legend><strong>Fabricante</strong></legend>
+            <label><input type="checkbox" name="fabricante" value="Apple"> Apple</label>
+            <label><input type="checkbox" name="fabricante" value="Samsung"> Samsung</label>
+            <label><input type="checkbox" name="fabricante" value="Otra"> Otra</label>
+            <label><input type="checkbox" name="fabricante" value="HTC"> HTC</label>
+            <label><input type="checkbox" name="fabricante" value="LG"> LG</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Modelo de Teléfono</strong></legend>
+            <input type="text" name="modelo">
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Portador</strong></legend>
+            <label><input type="checkbox" name="portador" value="AT&T"> AT&T</label>
+            <label><input type="checkbox" name="portador" value="Verizon"> Verizon</label>
+            <label><input type="checkbox" name="portador" value="Otra"> Otra</label>
+            <label><input type="checkbox" name="portador" value="Sprint"> Sprint</label>
+            <label><input type="checkbox" name="portador" value="T-Mobile"> T-Mobile</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Problema con el Dispositivo</strong></legend>
+            <label><input type="checkbox" name="problema" value="Digitalizador roto"> Digitalizador roto</label>
+            <label><input type="checkbox" name="problema" value="Puerto de carga roto"> Puerto de carga roto</label>
+            <label><input type="checkbox" name="problema" value="Otra"> Otra</label>
+            <label><input type="checkbox" name="problema" value="LCD rota"> LCD rota</label>
+            <label><input type="checkbox" name="problema" value="Cambio de batería"> Cambio de batería</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Clave del Dispositivo</strong></legend>
+            <input type="text" name="clave">
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Errores y Síntomas Proporcionados por el Cliente</strong></legend>
+            <textarea name="errores"></textarea>
+        </fieldset>
+
+        <button type="submit">Siguiente</button>
+    </form>
+</body>
+</html>
